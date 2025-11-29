@@ -1,1 +1,20 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="ECTV" name="ECTV" version="80" provider-name="TheLonePiper">
+    <extension point="xbmc.addon.repository" name="ECTV">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/TheLonePiper/ECTV/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/TheLonePiper/ECTV/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/TheLonePiper/ECTV/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>ECTV</summary>
+        <description>Eagles Cliff TV</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
