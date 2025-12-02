@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="ECTV" name="ECTV" version="80" provider-name="TheLonePiper">
+    <extension point="xbmc.addon.repository" name="ECTV">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/TheLonePiper/ECTV/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/TheLonePiper/ECTV/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/TheLonePiper/ECTV/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>ECTV</summary>
+        <description>Eagles Cliff TV</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.ectvmenu" name="[COLOR red]ECTV[/COLOR] Menu" version="1.0.0" provider-name="TheLonePiper">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">ECTV Menu</summary>
+		<description lang="en">Menu Item Lists (replaces Super Favourite menu display)</description>
+		<license>GNU General Public License, v2</license>
+		<language />
+		<website>http://1812cottages.com</website>
+		<email>me@ianmoran.ca</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot />
+		</assets>
+		<news>
+		0.00 Beta VersionS
+		</news>
+	</extension>
+</addon><addon id="plugin.video.lgchannels" name="LG Channels" version="2024.04.05" provider-name="MetalChris">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" version="2.9.1" />
+    <import addon="script.module.inputstreamhelper" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">LG Channels</summary>
+    <description lang="en">LG Channels is LG's exclusive free streaming service, offering a wide selection of premium live programming, including movies, TV shows, news, sports, and more.</description>
+    <disclaimer lang="en" />
+    <language />
+    <platform>all</platform>
+    <license>GPL(v2 or later)</license>
+    <forum />
+    <website>https://lgchannels.com</website>
+    <email />
+    <source />
+    <assets>
+        <icon>resources/media/icon.png</icon>
+        <fanart>resources/media/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon></addons>
